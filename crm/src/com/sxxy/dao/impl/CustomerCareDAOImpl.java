@@ -17,7 +17,7 @@ public class CustomerCareDAOImpl implements CustomerCareDAO{
 		Connection con = null;
 		// 预编译
 		PreparedStatement pre = null;
-
+  //  asafalfafk
 		try {
 			String sql = "insert into customer_care (care_theme,customer_id,care_time,care_nexttime,care_people,care_way,care_remark,is_used)"
 					+ "  values(?,?,?,?,?,?,?,1)";
